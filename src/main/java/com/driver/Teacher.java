@@ -8,7 +8,9 @@ public class Teacher {
 
     private int age;
 
+    public Teacher() {
 
+    }
 
     public String getName() {
         return name;
