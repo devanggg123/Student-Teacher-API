@@ -21,8 +21,8 @@ public class ClassroomService {
         classroomRepository.saveStudentTeacher(student, teacher);
     }
 
-    public Student findStudent(String studentname){
-        return classroomRepository.findStudent(studentname);
+    public Student findStudent(String Studentname){
+        return classroomRepository.findStudent(Studentname);
     }
     public Teacher findTeacher(String TeacherName){
         return classroomRepository.findTeacher(TeacherName);
